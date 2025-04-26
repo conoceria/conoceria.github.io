@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128">
+  <circle cx="32" cy="32" r="30" fill="#f2e9e4"/>
+  <!-- Math formula style: C_\text{IA} -->
+  <text x="18" y="38" fill="#22223b" font-size="22" font-family="'Latin Modern Math', 'STIX Math', 'Cambria Math', 'Georgia', serif" font-weight="bold">C</text>
+  <text x="32" y="44" fill="#4a4e69" font-size="12" font-family="'Latin Modern Math', 'STIX Math', 'Cambria Math', 'Georgia', serif" font-style="italic">IA</text>
+  <line x1="24" y1="40" x2="40" y2="40" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+</svg>
