@@ -1,0 +1,276 @@
+.app {
+  min-height: 100vh;
+  font-family: 'Inter', Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark {
+  background: #181a20;
+  color: #f5f5f5;
+}
+
+.light {
+  background: #f5f7fa;
+  color: #181a20;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3vw;
+  background: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navLogo {
+  width: 48px;
+  height: 48px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.navCta {
+  background: #4f8cff;
+  color: #fff !important;
+  padding: 0.5rem 1.2rem;
+  border-radius: 24px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+  transition: background 0.2s;
+}
+
+.navCta:hover {
+  background: #2563eb;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3vw 2rem 3vw;
+  min-height: 60vh;
+  gap: 2rem;
+}
+
+.heroContent {
+  flex: 1 1 350px;
+  max-width: 600px;
+}
+
+.heroContent h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #4f8cff;
+  font-weight: 500;
+}
+
+.ctaButtonLarge {
+  display: inline-block;
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 24px rgba(79,140,255,0.15);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.ctaButtonLarge:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #4f8cff 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.heroImage {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImage img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 32px rgba(79,140,255,0.10));
+}
+
+.features {
+  padding: 3rem 3vw 2rem 3vw;
+  background: rgba(79,140,255,0.04);
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.featureCard {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(79,140,255,0.07);
+  padding: 2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.featureCard span {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.featureCard h3 {
+  margin: 0.5rem 0 0.7rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.featureCard p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.featureCard:hover {
+  box-shadow: 0 6px 24px rgba(79,140,255,0.13);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.community {
+  padding: 3rem 3vw 2rem 3vw;
+  text-align: center;
+}
+
+.community h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonials blockquote {
+  background: #fff;
+  border-left: 4px solid #4f8cff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(79,140,255,0.07);
+  padding: 1.5rem 1.2rem;
+  max-width: 340px;
+  font-style: italic;
+  color: #222;
+  margin: 0;
+}
+
+.testimonials span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #4f8cff;
+  font-weight: 600;
+}
+
+.join {
+  padding: 3rem 3vw 2rem 3vw;
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+  color: #fff;
+  text-align: center;
+  border-radius: 24px;
+  margin: 2rem 0;
+}
+
+.join h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.join p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  padding: 2rem 3vw 1rem 3vw;
+  background: transparent;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1rem;
+  color: #888;
+}
+
+.footerContent a {
+  color: #4f8cff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 2vw 1rem 2vw;
+  }
+  .heroImage {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2vw;
+  }
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+  .footerContent {
+    font-size: 0.95rem;
+  }
+}

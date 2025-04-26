@@ -1,0 +1,36 @@
+.join {
+  padding: 3rem 3vw 2rem 3vw;
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+  color: #fff;
+  text-align: center;
+  border-radius: 24px;
+  margin: 2rem 0;
+}
+
+.join h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.join p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.ctaButtonLarge {
+  display: inline-block;
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 24px rgba(79,140,255,0.15);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.ctaButtonLarge:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #4f8cff 100%);
+  transform: translateY(-2px) scale(1.03);
+}

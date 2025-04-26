@@ -1,0 +1,21 @@
+.footer {
+  padding: 2rem 3vw 1rem 3vw;
+  background: transparent;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1rem;
+  color: #888;
+}
+
+.footerContent a {
+  color: #4f8cff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}

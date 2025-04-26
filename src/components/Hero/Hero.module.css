@@ -1,0 +1,60 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3vw 2rem 3vw;
+  min-height: 60vh;
+  gap: 2rem;
+}
+
+.heroContent {
+  flex: 1 1 350px;
+  max-width: 600px;
+}
+
+.heroContent h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #4f8cff;
+  font-weight: 500;
+}
+
+.ctaButtonLarge {
+  display: inline-block;
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 24px rgba(79,140,255,0.15);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.ctaButtonLarge:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #4f8cff 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.heroImage {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImage img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 32px rgba(79,140,255,0.10));
+}
